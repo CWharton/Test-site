@@ -11,9 +11,22 @@ fields:
   label: Date
   type: text
   hidden: false
-  default: 
+  default: ''
 - name: draft
   label: Draft
   type: boolean
   hidden: false
   default: true
+- type: field_group
+  fields:
+  - type: color
+    name: test
+    config:
+      color_format: Hex
+    label: test
+  - type: file
+    label: img
+    name: img
+  - type: include
+    name: template
+    label: template
