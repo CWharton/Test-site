@@ -1,4 +1,5 @@
 ---
+label: default
 hide_body: false
 is_partial: false
 fields:
@@ -30,3 +31,5 @@ fields:
   - type: include
     name: template
     label: template
+pages:
+- content/posts/another-test.md
